@@ -4,27 +4,36 @@
 *.log
 *.pyc
 *.swp
+.DS_Store
 .buildlog/
 .history
+.env
 
+# Presentation related
+flutter_presentation/fonts/
+
+# Firebase configuration files
+**/google-services.json
+**/GoogleService-Info.plist
+**/generated/res/google-services/
 
 
 # Flutter repo-specific
-/bin/cache/
-/bin/internal/bootstrap.bat
-/bin/internal/bootstrap.sh
-/bin/mingit/
-/dev/benchmarks/mega_gallery/
-/dev/bots/.recipe_deps
-/dev/bots/android_tools/
-/dev/devicelab/ABresults*.json
-/dev/docs/doc/
-/dev/docs/flutter.docs.zip
-/dev/docs/lib/
-/dev/docs/pubspec.yaml
-/dev/integration_tests/**/xcuserdata
-/dev/integration_tests/**/Pods
-/packages/flutter/coverage/
+**/bin/cache/
+**/bin/internal/bootstrap.bat
+**/bin/internal/bootstrap.sh
+**/bin/mingit/
+**/dev/benchmarks/mega_gallery/
+**/dev/bots/.recipe_deps
+**/dev/bots/android_tools/
+**/dev/devicelab/ABresults*.json
+**/dev/docs/doc/
+**/dev/docs/flutter.docs.zip
+**/dev/docs/lib/
+**/dev/docs/pubspec.yaml
+**/dev/integration_tests/**/xcuserdata
+**/dev/integration_tests/**/Pods
+**/packages/flutter/coverage/
 version
 analysis_benchmark.json
 
@@ -33,22 +42,22 @@ analysis_benchmark.json
 
 # Flutter/Dart/Pub related
 **/doc/api/
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
 **/generated_plugin_registrant.dart
-.packages
-.pub-preload-cache/
-.pub/
-build/
-flutter_*.png
-linked_*.ds
-unlinked.ds
-unlinked_spec.ds
+**/.packages
+**/.pub-preload-cache/
+**/.pub/
+**/build/
+**/flutter_*.png
+**/linked_*.ds
+**/unlinked.ds
+**/unlinked_spec.ds
 
 # Android related
 **/android/**/gradle-wrapper.jar
-.gradle/
+**/.gradle/
 **/android/captures/
 **/android/gradlew
 **/android/gradlew.bat
@@ -105,7 +114,7 @@ unlinked_spec.ds
 **/linux/flutter/generated_plugins.cmake
 
 # Coverage
-coverage/
+**/coverage/
 
 # Symbols
 app.*.symbols
